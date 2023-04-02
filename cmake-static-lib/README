@@ -1,0 +1,7 @@
+This is sample application verifies that native LLVM tools on WoA can create/link static libraries.
+We create a static library called testlib using three object files obj1.cpp, obj2.cpp and obj3.cpp.
+We also create a sample application that links against the static library and then makes use of the
+functions implemented by testlib.
+
+For testing run following command from your build folder: cmake -G Ninja <path-to-source>
+
