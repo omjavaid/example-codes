@@ -1,0 +1,2 @@
+cmake -G Ninja -DCMAKE_Fortran_COMPILER="c:\\work\\llvm-dev\\build\\bin\\flang-new.exe" .. 
+cmake -G Ninja -DCMAKE_Fortran_COMPILER=flang-new.exe ..
